@@ -206,7 +206,7 @@ class Menu extends StatelessWidget {
                       ),
                       child: const Text("Reportes"),
                       onPressed: () {
-                        Navigator.pushNamed(context, "/menu");
+                        Navigator.pushNamed(context, "/reportes");
                       },
                     ),
                   ],

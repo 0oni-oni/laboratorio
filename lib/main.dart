@@ -1,6 +1,7 @@
 import 'package:laboratorio/login.dart';
 import 'package:laboratorio/menu.dart';
 import 'package:flutter/material.dart';
+import 'package:laboratorio/reportes.dart';
 
 // Material, es un template de diseño
 
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => LoginScreen(),
         "/menu": (context) => Menu(),
+        "/reportes": (context) => ReportesScreen(),
       },
     ); //llamado al template
   }
